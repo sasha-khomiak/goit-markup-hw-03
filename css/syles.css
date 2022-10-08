@@ -71,7 +71,8 @@ p {
 /*----POSITIONS FOR CONTAINERS----*/
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
   /* outline: 2px solid tomato; */
@@ -111,8 +112,8 @@ p {
 
 .header-list-main {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 .header-list-second {
@@ -129,6 +130,10 @@ p {
 }
 
 .header-link-main {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 31px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -266,6 +271,8 @@ p {
 
 .activity-list-image {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /*----TEAM----*/
@@ -294,6 +301,8 @@ p {
 
 .team-list-photo {
   margin-bottom: 30px;
+  max-width: 100%;
+  height: auto;
 }
 
 .team-name {
@@ -430,6 +439,8 @@ p {
 
 .portfolio-list-project-item > img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolio-list-project-text {
